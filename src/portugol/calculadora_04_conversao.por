@@ -3,11 +3,13 @@ programa {
         real dolar, reais
         real cotacao = 5.16
         inteiro opcao
+        reais = arredondar(dolar * cotacao, 1)
 
-        escreva("===== MENU DE CONVERSÃO =====\n")
-        escreva("1 - Dólar para Real\n")
-        escreva("2 - Real para Dólar\n")
-        escreva("0 - Sair\n")
+        escreva(" ============================\n")
+        escreva("===== MENU DE CONVERSÃO ====\n")
+        escreva("  1 - Dólar para Real\n")
+        escreva("  2 - Real para Dólar\n")
+        escreva("  0 - Sair\n")
         escreva("============================\n")
 
         enquanto (verdadeiro) {
