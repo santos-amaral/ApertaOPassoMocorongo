@@ -3,7 +3,6 @@ programa {
         real dolar, reais
         real cotacao = 5.16
         inteiro opcao
-        reais = arredondar(dolar * cotacao, 1)
 
         escreva(" ============================\n")
         escreva("===== MENU DE CONVERSÃO ====\n")
