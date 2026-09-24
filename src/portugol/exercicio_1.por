@@ -16,11 +16,11 @@ programa{
     leia(nome)
     escreva ("\nSala: ")
     leia(sala)
-    escreva ("N° de Matrícula: ")
+    escreva ("\nN° de Matrícula: ")
     leia(matricula)
-    escreva ("Nota da entrevista: ")
+    escreva ("\nNota da entrevista: ")
     leia(nota)
-    escreva ("Já és aluno SENAI? ")
+    escreva ("\nJá és aluno SENAI? ")
     leia(senai)
 
     // Verifica se a resposta é positiva
@@ -39,6 +39,7 @@ programa{
       escreva ("\n N° de Matrícula: ", matricula)
       escreva ("\n Nota da entrevista: ", nota)
       escreva ("\n Aluno Senai: ", senai)
+      escreva ("\n ============ CRACHÁ SENAI ============")
 
     }
 }
