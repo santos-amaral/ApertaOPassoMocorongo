@@ -15,11 +15,7 @@ programa {
 
             escreva("\n\nPara começarmos, insira sua nota em Matemática: ")
             leia(nota1)
-                enquanto (nota1 !== 1){
-                                escreva("\n\nPara começarmos, insira sua nota em Matemática: ")
-
-                }
-
+            
             escreva("\nAgora, insira sua nota em Língua Portuguesa: ")
             leia(nota2)
 
@@ -45,13 +41,14 @@ programa {
 
                 escreva("\nInfelizmente, você foi reprovado. Dedique-se mais aos estudos!")
 
-            }
+               }
+         }
 
             escreva("\n\nDeseja fazer outro teste? (sim/nao): ")
             leia(continuar)
         }
 
-        escreva("\nPrograma encerrado. Até a próxima!")
+         escreva("\nPrograma encerrado. Até a próxima!")
 
     }
 }
