@@ -15,6 +15,10 @@ programa {
 
             escreva("\n\nPara começarmos, insira sua nota em Matemática: ")
             leia(nota1)
+                enquanto (nota1 !== 1){
+                                escreva("\n\nPara começarmos, insira sua nota em Matemática: ")
+
+                }
 
             escreva("\nAgora, insira sua nota em Língua Portuguesa: ")
             leia(nota2)
