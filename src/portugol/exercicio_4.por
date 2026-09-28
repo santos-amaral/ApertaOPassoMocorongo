@@ -7,9 +7,7 @@ programa {
         real nota1, nota2, nota3, nota4
         real media
 
-        continuar = "sim"
-
-        enquanto (continuar == "sim") {
+        enquanto (continuar == "sim" ou "s" ou "si" ou "y" ou "Yes" ou "yes" ou "Sim" ou "SIM") {
 
             escreva("\nOlá, querido estudante!")
 
