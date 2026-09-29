@@ -8,19 +8,9 @@ programa {
 
     funcao inicio() {
 
-        real base
-        real altura
-        real area
-
-        escreva("Informe o tamanho, em metros, da base de seu terreno:\n")
-        leia(base)
-
-        escreva("Informe o tamanho, em metros, da altura de seu terreno:\n")
-        leia(altura)
-
-        area = areaTerreno(base, altura)
-
-        escreva("A área de seu terreno é ", area, " m²")
+        escreva("A área do terreno é: ", areaRetangulo(10,20))
+        
+        escreva("\n\nA área do terreno é: ", areaRetangulo(20,25))
 
     }
 }
