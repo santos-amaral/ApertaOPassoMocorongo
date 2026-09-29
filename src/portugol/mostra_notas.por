@@ -5,7 +5,7 @@ programa{
 
         para( i = 0; i <= 3; i = i + 1){
             escreva ("\nInforme a nota", i + 1, ": ")
-            leia(notas[0])
+            leia(notas[i])
         
         }
 
