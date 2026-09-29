@@ -3,7 +3,7 @@ programa{
         inteiro numero
     
     escreva("Olá, jovem. Vamos descobrir se seu número é par ou ímpar!")
-    escreva("\nDigite um número: ")
+    escreva("\nDigite um número(digite 0 para sair): ")
     leia(numero)
         
     enquanto (numero != 0){    

@@ -15,14 +15,20 @@ programa {
     }
     
     funcao inicio(){
-        inteiro idade = 0
+        inteiro idade = 1
         
-        escreva ("Olá, informe sua idade:\n")
+        enquanto (idade != 0){
+
+        escreva ("\nOlá, informe sua idade (digite 0 para sair):")
         leia(idade)
+       
         cadeia resultado
-
+        
         resultado = faixa(idade)
-        escreva("Sua faixa etária é: ", resultado)
+        escreva("\nSua faixa etária é: ", resultado)
+        
+        }
 
+        escreva("\nEncerramos por aqui. Obrigado!")
     }
 }
