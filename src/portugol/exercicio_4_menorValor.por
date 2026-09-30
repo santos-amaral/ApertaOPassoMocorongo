@@ -5,6 +5,7 @@ programa{
         inteiro nums[6]
         inteiro i = 0
         inteiro menor
+        inteiro posicaoMenor = 0
 
         para (i = 0; i <= 5; i = i + 1){
 
@@ -17,7 +18,8 @@ programa{
         para(i = 0; i <= 5; i = i + 1){
             
             se (nums[i] < menor){
-                nums[i] = menor
+                menor = nums[i]
+                posicaoMenor = i
             }          
             
         }
@@ -26,6 +28,6 @@ programa{
         escreva("\nValor", i+1, ": ", nums[i])
         }
 
-        escreva("\nO menor numero encontrado foi", menor, ".\n")
+        escreva("\nO menor numero encontrado foi ", menor, ". Encontrado no índice ", posicaoMenor, ".\n")
     }
 }

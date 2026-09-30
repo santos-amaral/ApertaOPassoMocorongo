@@ -3,11 +3,11 @@ programa{
     funcao real comDesconto(real preco){ 
     
     se(preco >= 100){
-        retorne preco = preco*0.9
+        retorne preco * 0.9
     } 
     
     senao {
-        retorne preco = preco
+        retorne preco
         }
     }
 
@@ -25,8 +25,9 @@ programa{
         }
 
         para (i = 0; i <= 3; i = i + 1){
-        
-            escreva("\nSubstotal produto", i+1, "R$:", precos[i])
+
+            precos[i] = comDesconto(precos[i])
+            escreva("\nSubstotal produto ", i + 1, " R$:", precos[i])
 
         }
 
